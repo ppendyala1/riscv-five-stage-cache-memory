@@ -1,5 +1,6 @@
 `timescale 1ns/1ps
 module register_file_tb;
+    `include "waveform.svh"
     logic clk = 0;
     always #5 clk = ~clk;
     logic rst, write_en;
